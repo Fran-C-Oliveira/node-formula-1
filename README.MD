@@ -1,6 +1,6 @@
 # F1 Minimal API (Node + TypeScript + Fastify)
 
-A minimal API demonstrating a small backend using Fastify and TypeScript.
+##A minimal API demonstrating a small backend using Fastify and TypeScript.
 
 Main files
 - Server implementation: `src/server.ts`  
@@ -9,22 +9,26 @@ Main files
 - Environment file: `.env`  
 - TypeScript config: `tsconfig.json`
 
-Prerequisites
+###Prerequisites
 - Node.js v20+ and npm v10+
 
 Installation
 ```bash
 npm install
 
-Running in development
+```
+
+###Running in development
 
 Use the development script (loads variables from .env):
+
 Useful scripts (in package.json):
 
 npm run start:dev — run TypeScript directly with tsx and load .env
 npm run start:watch — run with watch mode
 npm run dist — bundle/compile with tsup
 npm run start:dist — build and run the production build
+
 Endpoints
 
 GET /teams — returns the list of teams (from teams in src/server.ts)
@@ -35,6 +39,7 @@ Examples
 Port
 
 Default port is set in .env (e.g. PORT=3333)
+
 Notes
 
 The main server and routes are implemented in src/server.ts.
