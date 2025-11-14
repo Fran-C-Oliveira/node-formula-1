@@ -1,6 +1,6 @@
 # F1 Minimal API (Node + TypeScript + Fastify)
 
-##A minimal API demonstrating a small backend using Fastify and TypeScript.
+## A minimal API demonstrating a small backend using Fastify and TypeScript.
 
 Main files
 - Server implementation: `src/server.ts`  
@@ -9,7 +9,7 @@ Main files
 - Environment file: `.env`  
 - TypeScript config: `tsconfig.json`
 
-###Prerequisites
+### Prerequisites
 - Node.js v20+ and npm v10+
 
 Installation
