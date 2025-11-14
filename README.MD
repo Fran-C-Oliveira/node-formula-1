@@ -39,7 +39,7 @@ npm run start:dev
 `GET /drivers/:id` — returns a driver by id
 
 Examples:
-
+```bash
 # list teams
 curl http://localhost:3333/teams
 
@@ -48,6 +48,7 @@ curl http://localhost:3333/drivers
 
 # get driver with id 2
 curl http://localhost:3333/drivers/2
+```
 
 ### Port
 
